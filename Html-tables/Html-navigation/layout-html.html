@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <title>
+        HTML layout
+    </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    }
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+        header{
+            background-color: midnightblue; 
+            font-family: fantasy;
+            text-align: center;
+            color: moccasin;
+            padding: 20px;
+            font-size: 50px;
+           
+        }
+        footer{
+            color: olive;
+            text-align: center;
+            padding:80px;
+            background-color: sandybrown;
+            
+
+        }
+        body{
+            background-color: rgb(221, 238, 183);
+            text-align: justify;
+            text-indent: 1in;
+        }
+        section {
+  display: -webkit-flex;
+  display: flex;
+}
+    nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+    nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+    </style>
+    <body>
+        <header> Destm Technologies</header>
+        <section>
+            ​<div style="overflow:auto">
+                <div class="menu">
+                  <div class="menuitem">Home</div>
+                  <div class="menuitem">About</div>
+                  <div class="menuitem">Clients</div>
+                  <div class="menuitem">Gallery</div>
+                </div>
+  
+  <article>
+        <p>
+            We have been providing next-generation digital services and consulting since 2013. With huge expertise in the field, we serve our clients better to maximize their potential.
+
+We are in the business of creating and handcrafting software/websites for the last seven years. At Destm we believe that our most valuable asset are our people. We take care of our clients’ needs. We identify expectations and meet them to the clients’ satisfaction. We have widespread IT solutions for all organizational needs and there are many more to come.
+
+In the present highly competitive world, Destm is committed to provide high end technological solutions to its clients’ problems. We provide tech-support to bring efficiency at work, which ensures profitability. We have multi-talented teams, who work tirelessly in the journey of Learn-Share-Grow. We are dedicated to serve our clients’ expectations. Destm aims to provide all types of technological support to its clients to deal with modern days challenges. We have proven track records of serving our clients to the fullest, we will ensure the same in future as well.
+        </p>
+    </article>
+</section>
+<footer>
+    <p>C204, Second Floor, <br>Industrial Area, Sector 74,<br> Sahibzada Ajit Singh Nagar,<br> Punjab 160074</p>
+    </footer>
+    </body>
+</html>

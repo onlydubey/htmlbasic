@@ -1,0 +1,12 @@
+body {color: rgb(0, 0, 0);
+    background-color:rgb(187, 255, 0);
+    font-size:20px;
+    text-align:center;
+    border-style:solid;
+    background-image: url('hd.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+
+}
